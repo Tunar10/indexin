@@ -1,0 +1,58 @@
+body {
+  background: #00edff;
+  background: -webkit-gradient(linear, left top, right top, from(#00edff), color-stop(94%, #e400d0));
+  background: linear-gradient(90deg, #00edff 0%, #e400d0 94%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00edff",endColorstr="#e400d0",GradientType=1);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: auto;
+  min-height: 100vh;
+}
+
+body .container {
+  padding-top: 40px;
+  padding-bottom: 40px;
+  padding-left: 40px;
+  margin: auto;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  background-color: white;
+  width: 45%;
+}
+
+body .container h3 {
+  text-align: center;
+  color: aqua;
+}
+
+body .container input {
+  outline: none;
+  border: none;
+  border-bottom: 2px solid #c7bfbf;
+  margin-top: 15px;
+  padding-bottom: 10px;
+}
+
+body .container input:focus {
+  border-bottom: 2px solid blue;
+}
+
+body .container label {
+  color: grey;
+}
+
+body .container button {
+  background: #00edff;
+  background: -webkit-gradient(linear, left top, right top, from(#00edff), color-stop(94%, #e400d0));
+  background: linear-gradient(90deg, #00edff 0%, #e400d0 94%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#00edff",endColorstr="#e400d0",GradientType=1);
+  border: none;
+  padding: 8px;
+  color: white;
+}
+/*# sourceMappingURL=index.css.map */
